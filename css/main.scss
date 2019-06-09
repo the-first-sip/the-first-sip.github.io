@@ -1513,11 +1513,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			&:before {
 				top: 0;
 				left: 0;
+				width: 30%;
 			}
 
 			&:after {
 				bottom: 0;
 				right: 0;
+				width: 30%;
 			}
 		}
 
