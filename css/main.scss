@@ -1512,14 +1512,14 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			&:before {
 				top: 0;
-				left: 0;
-				width: 30%;
+				left: 25%;
+				width: 60%;
 			}
 
 			&:after {
 				bottom: 0;
-				right: 0;
-				width: 30%;
+				right: 25%;
+				width: 60%;
 			}
 		}
 
