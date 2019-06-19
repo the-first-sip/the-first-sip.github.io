@@ -5,15 +5,22 @@ description:
 ---
     <section>
 				<h4>How can we help?</h4>
-				<form method="post" action="#">
+				<form method="post" action="mailto:charles@thespicehut.com">
 					<div class="row uniform">
 						<div class="6u 12u$(xsmall)">
-							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+							<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
 						</div>
 						<div class="6u$ 12u$(xsmall)">
-							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+							<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
 						</div>
-
+            <div class="6u 12u$(small)">
+							<input type="checkbox" id="demo-copy" name="demo-copy">
+							<label for="demo-copy">Email me a copy</label>
+						</div>
+						<div class="6u$ 12u$(small)">
+							<input type="checkbox" id="demo-human" name="demo-human" checked>
+							<label for="demo-human">Not a robot</label>
+						</div>
 						<div class="12u$">
 							<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 						</div>
