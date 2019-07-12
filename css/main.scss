@@ -1375,7 +1375,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
-		background: #4286f4;
+		background: #a4aab4;
 		// background: _palette(bg);
 		height: 3em;
 		left: 0;
