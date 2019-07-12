@@ -491,15 +491,18 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			//color: _palette(accent2, bg);
+            color: white;
 		}
 
 		&.style2 {
-			color: _palette(accent2, bg);
+			//color: _palette(accent2, bg);
+            color: white;
 		}
 
 		&.style3 {
-			color: _palette(accent2, bg);
+			//color: _palette(accent2, bg);
+            color: white;
 		}
 	}
 
