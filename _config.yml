@@ -15,11 +15,11 @@ social:
   #twitter: https://twitter.com/<username>
   #github:
   #linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://www.facebook.com/spicehut/
+  facebook-official: https://www.facebook.com/thefirstsipoftea/
   #google-plus-square: https://plus.google.com/u/0/+<username>
   email: info@thespicehut.com
   #flickr:
-  instagram: https://www.instagram.com/thespicehut/
+  instagram: https://www.instagram.com/thefirstsipoftea/
   #youtube-square:
   #spotify:
   #stack-overflow:
@@ -58,4 +58,3 @@ markdown: kramdown
 #  style: compressed
 plugins:
     - jekyll-sitemap
-    
