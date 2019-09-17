@@ -1850,13 +1850,13 @@ $baseurl: '{{ site.baseurl }}/images';
 #matcha .text{
 	position: relative;
 	bottom: 125px;
-	font-size: 125%;
+	font-size: 145%;
 	left: 0;
 	opacity: 0;
 }
 
 #matcha:hover .image{
-	opacity: 0.4;
+	opacity: 0.35;
 }
 #matcha:hover .text{
 	opacity: 1;
