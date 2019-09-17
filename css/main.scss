@@ -1848,14 +1848,14 @@ $baseurl: '{{ site.baseurl }}/images';
 	transition: opacity 0.4s ease-in-out;
 }
 #matcha .text{
-	position: absolute;
-	// top: 0;
-	// left: 0;
+	position: relative;
+	top: 0;
+	left: 0;
 	opacity: 0;
 }
 
 #matcha:hover .image{
-	opacity: 0;
+	opacity: 0.3;
 }
 #matcha:hover .text{
 	opacity: 1;
