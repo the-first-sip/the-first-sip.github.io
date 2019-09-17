@@ -1849,8 +1849,8 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 #matcha .text{
 	position: absolute;
-	top: 0;
-	left: 0;
+	// top: 0;
+	// left: 0;
 	opacity: 0;
 }
 
