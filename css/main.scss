@@ -1864,10 +1864,6 @@ $baseurl: '{{ site.baseurl }}/images';
 
 #box {
 	postion: relative;
-}
-#box .image,
-#box .bowl{
-	transition: opacity 0.4s ease-in-out;
 	.3u {
 		width: 25%;
 	}
@@ -1875,6 +1871,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 50%;
 	}
 }
+
+#box .image,
+#box .bowl{
+	transition: opacity 0.4s ease-in-out;
+
+}
+
 #box .bowl{
 	position: absolute;
 	// bottom: 150px;
