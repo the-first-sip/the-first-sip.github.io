@@ -1861,3 +1861,25 @@ $baseurl: '{{ site.baseurl }}/images';
 #matcha:hover .text{
 	opacity: 1;
 }
+
+#box {
+	postion: relative;
+}
+#box .image,
+#box .bowl{
+	transition: opacity 0.4s ease-in-out;
+}
+#box .bowl{
+	position: relative;
+	bottom: 50%;
+	font-size: 145%;
+	left: 0;
+	opacity: 0;
+}
+
+#box:hover .image{
+	opacity: 0;
+}
+#box:hover .bowl{
+	opacity: 1;
+}
